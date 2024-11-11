@@ -1,0 +1,91 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+    width: 400px; 
+}
+.containerLibros{
+    background-color: white; /* Fondo blanco para el contenedor */
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    text-align: center; /* Centrar texto dentro del contenedor */
+    width: 80%; /* Ancho del contenedor */
+    max-width: 600px; /* Ancho máximo */
+}
+
+h1, h2 {
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="password"] {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+}
+
+button {
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+/* Estilos para enlaces */
+a {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    background-color: #007bff; 
+    border-radius: 5px; 
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+a:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px); 
+}
+
+/* Estilos de tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
